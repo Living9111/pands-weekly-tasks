@@ -1,0 +1,9 @@
+# a = float(input("enter 1st number:"))
+# b = float(input("enter 2nd number:"))
+# c = a - b
+# print(c)
+
+a = 21
+b = 4
+c = a - b
+print(c)
