@@ -1,0 +1,32 @@
+students= []
+def displayMenu():
+
+ print("what would you like to do?")
+ print("\t(a) Add new student")
+ print("\t(v) View students")
+ print("\t(s) Save students")
+ print("\t(q) Quit")
+ choice = input("type one letter (a/v/s/q):").strip()
+ return choice
+def doAdd(students):
+
+ print("in adding")
+def doView(students):
+
+ print("in viewing")
+def doSave(students):
+
+ print("in save")
+
+choice = displayMenu()
+while(choice != 'q'):
+
+ if choice == 'a':
+   doAdd(students)
+ elif choice == 'v':
+   doView(students)
+ elif choice == 's':
+     doSave(students)
+ elif choice !='q':
+  print("\n\nPlease select either a,v,s or q")
+ choice=displayMenu()
